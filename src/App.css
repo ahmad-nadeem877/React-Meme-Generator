@@ -44,6 +44,7 @@ p {
   background: rgb(103, 34, 128);
   background: linear-gradient(90deg, rgba(103, 34, 128, 1) 0%, rgba(166, 38, 211, 1) 100%);
   color: white;
+  cursor: pointer;
 }
 
 .first-input {
@@ -70,4 +71,9 @@ p {
   border-radius: 5px;
   text-indent: 5px;
   margin-top: 5px;
+}
+
+.meme-mage {
+  grid-column: 1 / -1;
+  /* max-width: 100%; */
 }
